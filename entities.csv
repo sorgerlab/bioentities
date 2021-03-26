@@ -9,11 +9,13 @@ Acetyl_CoA_synthetase
 ACOX
 ACSL
 Actin
+Actin_related_proteins
 Activin
 Activin_A
 Activin_AB
 Activin_B
 ACTN
+ADA
 Adaptor_protein
 Adaptor_protein_I
 Adaptor_protein_II
@@ -21,6 +23,7 @@ Adaptor_protein_III
 Adaptor_protein_IV
 Adaptor_protein_V
 ADCY
+Adenosine_deaminase_family
 ADH
 ADORA
 ADRA
@@ -79,6 +82,7 @@ BCKDC
 BDKR
 BEST
 Beta_3_4_GTF
+Beta_HEX
 BIRC
 BLVR
 BMP
@@ -195,6 +199,7 @@ DGK
 DNA_polymerase_alpha
 DNA_polymerase_delta
 DNM
+DNMT
 DRD
 DUSP
 DVL
@@ -206,6 +211,10 @@ E2F
 E3_Ub_ligase
 EDN
 EDNR
+EEF
+EEF1
+EEF1A
+EEF1B
 EFN
 EGFR_ligand
 EGR
@@ -236,6 +245,7 @@ ETNK
 ETS
 EXOC
 EXT
+FABP
 F_actin
 FANC
 FERMT
@@ -333,6 +343,7 @@ HDL
 Hedgehog
 Hemoglobin
 HES
+HEX
 HIF
 HIF1
 HIF_alpha
@@ -394,6 +405,7 @@ KCNT
 Kinesin
 Kinetochore
 KLK
+KMT
 KSR
 Laminin_111
 Laminin_332
@@ -409,16 +421,21 @@ MAC
 MAC_1
 Macrophage_inflammatory_proteins
 MAF
+MAP
+MAP1
 MAP1LC3
+MAP2
 MAP2K
 MAP3K
 MAPK
+MAPRE
 MCM
 Mechanosensitive_ion_channels
 MED
 MEF2
 MEK
 Metallothionein
+Methyltranferases
 MGAT
 MIRLET7
 MIRLET7A
@@ -432,6 +449,7 @@ MRC
 MRN_complex
 MRPL
 MRPS
+MTNR
 mTORC1
 mTORC2
 MYH
@@ -508,6 +526,7 @@ PARP
 PARV
 Patched
 PBX
+PCSK
 PDE
 PDE1
 PDE3
@@ -549,6 +568,7 @@ PLCB
 PLCD
 PLCG
 PLD
+PLOD
 Pocket_protein
 Porins
 Potassium_calcium_activated_channels
@@ -571,6 +591,7 @@ PRDX
 PRKAC
 PRKAR
 PRKG
+PRMT
 Propionyl_CoA_carboxylase
 Protease
 Proteasome
@@ -617,6 +638,7 @@ S100A
 S1PR
 SAA
 Sarcoglycan_complex
+SCAR
 SCD
 SCN
 SCNN
@@ -643,6 +665,7 @@ Sodium_channels
 Sodium_voltage_gated_channel_alpha_subunits
 Sodium_voltage_gated_channel_beta_subunits
 SOS
+SP
 SPHK
 SPRED
 SPRY
@@ -665,6 +688,7 @@ TFAP2
 TFDP
 TGFB
 TGFBR
+TGM
 THBS
 THR
 Thrombin_antithrombin
@@ -679,6 +703,7 @@ TOP
 TOP2
 TPCN
 TRAF
+TRMT
 Troponin
 Troponin_C
 Troponin_I
@@ -705,28 +730,3 @@ VTNR
 Wnt
 Wnt5
 YBX
-FABP
-MTNR
-PCSK
-PLOD
-KMT
-DNMT
-PRMT
-TRMT
-Methyltranferases
-TGM
-HEX
-Beta_HEX
-MAP
-MAP1
-MAP2
-MAPRE
-SCAR
-Actin_related_proteins
-ADA
-Adenosine_deaminase_family
-SP
-EEF
-EEF1
-EEF1A
-EEF1B
