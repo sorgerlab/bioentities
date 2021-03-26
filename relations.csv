@@ -4443,7 +4443,7 @@ HGNC,TRMT6,isa,FPLX,TRMT
 HGNC,TRMT61A,isa,FPLX,TRMT
 HGNC,TRMT61B,isa,FPLX,TRMT
 HGNC,TRMT9B,isa,FPLX,TRMT
-FPLX,KMT,isa,FPLX,Methyltranferases
+FPLX,KMT,isa,FPLX,Methyltransferases
 FPLX,DNMT,isa,FPLX,Methyltransferases
 FPLX,PRMT,isa,FPLX,Methyltransferases
 FPLX,TRMT,isa,FPLX,Methyltransferases
