@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20210414
-CreatedDateTime=2021-04-14T16:04:58
+VersionString=20210415
+CreatedDateTime=2021-04-15T00:12:48
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -31,6 +31,7 @@ ACC|CGPR
 ACOX|CGPR
 ACSL|CGPR
 ACTN|CGPR
+ADA|CGPR
 ADCY|CGPR
 ADH|CGPR
 ADORA|CGPR
@@ -80,6 +81,7 @@ ATP_synthase|CGPR
 AXIN|CGPR
 Acetyl_CoA_synthetase|CGPR
 Actin|CGPR
+Actin_related_proteins|CGPR
 Activin|CGPR
 Activin_A|CGPR
 Activin_AB|CGPR
@@ -90,6 +92,7 @@ Adaptor_protein_II|CGPR
 Adaptor_protein_III|CGPR
 Adaptor_protein_IV|CGPR
 Adaptor_protein_V|CGPR
+Adenosine_deaminase_family|CGPR
 Annexin_II_heterotetramer|CGPR
 Apolipoprotein|CGPR
 Arp2_3_protein|CGPR
@@ -109,6 +112,7 @@ BMP_receptor_type_I|CGPR
 BMP_receptor_type_II|CGPR
 BRCA|CGPR
 Beta_3_4_GTF|CGPR
+Beta_HEX|CGPR
 C1|CGPR
 C1q|CGPR
 CACN|CGPR
@@ -215,6 +219,7 @@ DGK|CGPR
 DNA_polymerase_alpha|CGPR
 DNA_polymerase_delta|CGPR
 DNM|CGPR
+DNMT|CGPR
 DRD|CGPR
 DUSP|CGPR
 DVL|CGPR
@@ -229,6 +234,10 @@ E2F|CGPR
 E3_Ub_ligase|CGPR
 EDN|CGPR
 EDNR|CGPR
+EEF|CGPR
+EEF1|CGPR
+EEF1A|CGPR
+EEF1B|CGPR
 EFN|CGPR
 EGFR_ligand|CGPR
 EGR|CGPR
@@ -259,6 +268,7 @@ EXOC|CGPR
 EXT|CGPR
 Eotaxin|CGPR
 Ephrin_receptor|CGPR
+FABP|CGPR
 FANC|CGPR
 FERMT|CGPR
 FGF|CGPR
@@ -353,6 +363,7 @@ HDAC_III|CGPR
 HDAC_IV|CGPR
 HDL|CGPR
 HES|CGPR
+HEX|CGPR
 HIF|CGPR
 HIF1|CGPR
 HIF_alpha|CGPR
@@ -413,6 +424,7 @@ KCNJ|CGPR
 KCNK|CGPR
 KCNT|CGPR
 KLK|CGPR
+KMT|CGPR
 KSR|CGPR
 Kainate_family|CGPR
 Kinesin|CGPR
@@ -430,10 +442,13 @@ Ligand_gated_ion_channels|CGPR
 MAC|CGPR
 MAC_1|CGPR
 MAF|CGPR
+MAP1|CGPR
 MAP1LC3|CGPR
+MAP2|CGPR
 MAP2K|CGPR
 MAP3K|CGPR
 MAPK|CGPR
+MAPRE|CGPR
 MCM|CGPR
 MED|CGPR
 MEF2|CGPR
@@ -450,6 +465,7 @@ MRC|CGPR
 MRN_complex|CGPR
 MRPL|CGPR
 MRPS|CGPR
+MTNR|CGPR
 MYH|CGPR
 MYL|CGPR
 MYL_alkali|CGPR
@@ -466,6 +482,8 @@ MYST|CGPR
 Macrophage_inflammatory_proteins|CGPR
 Mechanosensitive_ion_channels|CGPR
 Metallothionein|CGPR
+Methyltransferases|CGPR
+Microtubule_associated_proteins|CGPR
 Mitochondrial_Ribosome|CGPR
 Myosin_complex|CGPR
 Myosin_family|CGPR
@@ -524,6 +542,7 @@ PAK|CGPR
 PARP|CGPR
 PARV|CGPR
 PBX|CGPR
+PCSK|CGPR
 PDE|CGPR
 PDE1|CGPR
 PDE3|CGPR
@@ -562,6 +581,7 @@ PLCB|CGPR
 PLCD|CGPR
 PLCG|CGPR
 PLD|CGPR
+PLOD|CGPR
 PPAP2|CGPR
 PPAR|CGPR
 PPP1|CGPR
@@ -580,6 +600,7 @@ PRDX|CGPR
 PRKAC|CGPR
 PRKAR|CGPR
 PRKG|CGPR
+PRMT|CGPR
 PTGER|CGPR
 PYG|CGPR
 Patched|CGPR
@@ -632,6 +653,7 @@ S100|CGPR
 S100A|CGPR
 S1PR|CGPR
 SAA|CGPR
+SCAR|CGPR
 SCD|CGPR
 SCN|CGPR
 SCNN|CGPR
@@ -655,6 +677,7 @@ SMURF|CGPR
 SNAI|CGPR
 SOD|CGPR
 SOS|CGPR
+SP|CGPR
 SPHK|CGPR
 SPRED|CGPR
 SPRY|CGPR
@@ -681,6 +704,7 @@ TFAP2|CGPR
 TFDP|CGPR
 TGFB|CGPR
 TGFBR|CGPR
+TGM|CGPR
 THBS|CGPR
 THR|CGPR
 TIAM|CGPR
@@ -694,6 +718,7 @@ TOP|CGPR
 TOP2|CGPR
 TPCN|CGPR
 TRAF|CGPR
+TRMT|CGPR
 TRP|CGPR
 TSC|CGPR
 TUBA|CGPR

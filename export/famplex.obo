@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:04:2021 16:05
+date: 15:04:2021 00:12
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -167,6 +167,37 @@ inverse_is_a: FPLX:F_actin
 inverse_is_a: FPLX:G_actin
 
 [Term]
+id: FPLX:Actin_related_proteins
+name: Actin-related-proteins
+synonym: "Arp" EXACT []
+synonym: "actin-related protein" EXACT []
+synonym: "actin-related proteins" EXACT []
+synonym: "Actin-related protein" EXACT []
+synonym: "Actin-related proteins" EXACT []
+xref: HGNC_GROUP:1436
+is_a: FPLX:root
+inverse_is_a: HGNC:ACTL10
+inverse_is_a: HGNC:ACTL6A
+inverse_is_a: HGNC:ACTL6B
+inverse_is_a: HGNC:ACTL7A
+inverse_is_a: HGNC:ACTL7B
+inverse_is_a: HGNC:ACTL8
+inverse_is_a: HGNC:ACTL9
+inverse_is_a: HGNC:ACTR10
+inverse_is_a: HGNC:ACTR1A
+inverse_is_a: HGNC:ACTR1B
+inverse_is_a: HGNC:ACTR2
+inverse_is_a: HGNC:ACTR3
+inverse_is_a: HGNC:ACTR3B
+inverse_is_a: HGNC:ACTR3C
+inverse_is_a: HGNC:ACTR5
+inverse_is_a: HGNC:ACTR6
+inverse_is_a: HGNC:ACTR8
+inverse_is_a: HGNC:ACTRT1
+inverse_is_a: HGNC:ACTRT2
+inverse_is_a: HGNC:ACTRT3
+
+[Term]
 id: FPLX:Activin
 name: Activin
 def: "Activins are produced in the pituitary, gonads, and other tissues. By acting locally, they stimulate pituitary FSH secretion and have diverse effects on cell differentiation and embryonic development. Activins are glycoproteins that are hetero- or homodimers of INHIBIN-BETA SUBUNITS." [mesh:D028341]
@@ -234,6 +265,20 @@ inverse_is_a: HGNC:ACTN1
 inverse_is_a: HGNC:ACTN2
 inverse_is_a: HGNC:ACTN3
 inverse_is_a: HGNC:ACTN4
+
+[Term]
+id: FPLX:ADA
+name: ADA
+xref: HGNC_GROUP:1303
+is_a: FPLX:Adenosine_deaminase_family
+inverse_is_a: HGNC:ADAD1
+inverse_is_a: HGNC:ADAD2
+inverse_is_a: HGNC:ADAR
+inverse_is_a: HGNC:ADARB1
+inverse_is_a: HGNC:ADARB2
+inverse_is_a: HGNC:ADAT1
+inverse_is_a: HGNC:ADAT2
+inverse_is_a: HGNC:ADAT3
 
 [Term]
 id: FPLX:Adaptor_protein
@@ -350,6 +395,20 @@ inverse_is_a: HGNC:ADCY7
 inverse_is_a: HGNC:ADCY8
 inverse_is_a: HGNC:ADCY9
 inverse_is_a: HGNC:ADCY10
+
+[Term]
+id: FPLX:Adenosine_deaminase_family
+name: Adenosine-deaminase-family
+synonym: "adenosine deaminase" EXACT []
+xref: HGNC_GROUP:1302
+is_a: FPLX:root
+inverse_is_a: HGNC:ADA
+inverse_is_a: FPLX:ADA
+inverse_is_a: HGNC:ADA2
+inverse_is_a: HGNC:ADAL
+inverse_is_a: HGNC:AMPD1
+inverse_is_a: HGNC:AMPD2
+inverse_is_a: HGNC:AMPD3
 
 [Term]
 id: FPLX:ADH
@@ -1379,6 +1438,15 @@ inverse_is_a: HGNC:CSGALNACT1
 inverse_is_a: HGNC:CSGALNACT2
 
 [Term]
+id: FPLX:Beta_HEX
+name: Beta-HEX
+synonym: "Beta-hexosaminidase" EXACT []
+synonym: "β-hexosaminidase" EXACT []
+is_a: FPLX:HEX
+has_part: HGNC:HEXA
+has_part: HGNC:HEXB
+
+[Term]
 id: FPLX:BIRC
 name: BIRC
 def: "A conserved class of proteins that control APOPTOSIS in both VERTEBRATES and INVERTEBRATES. IAP proteins interact with and inhibit CASPASES, and they function as ANTI-APOPTOTIC PROTEINS. The protein class is defined by an approximately 80-amino acid motif called the baculoviral inhibitor of apoptosis repeat; some members have ubiquitin-protein ligase activity." [mesh:D051034]
@@ -2069,6 +2137,7 @@ def: "Protein kinases that control cell cycle progression in all eukaryotes and 
 synonym: "CDK" EXACT []
 synonym: "Cdk" EXACT []
 synonym: "CDKs" EXACT []
+synonym: "cell cycle regulatory protein" EXACT []
 xref: ECCODE:2.7.11.22
 xref: MEDSCAN:urn:agi-complex:prophash-4dda466320b1a32b046d823accadbaee
 xref: MESH:D018844
@@ -3064,6 +3133,7 @@ inverse_is_a: HGNC:PPIAL4G
 id: FPLX:CYP
 name: CYP
 def: "A superfamily of hundreds of closely related HEMEPROTEINS found throughout the phylogenetic spectrum, from animals, plants, fungi, to bacteria. They include numerous complex monooxygenases (MIXED FUNCTION OXYGENASES). In animals, these P-450 enzymes serve two major functions: (1) biosynthesis of steroids, fatty acids, and bile acids; (2) metabolism of endogenous and a wide variety of exogenous substrates, such as toxins and drugs (BIOTRANSFORMATION). They are classified, according to their sequence similarities rather than functions, into CYP gene families (>40% homology) and subfamilies (>59% homology). For example, enzymes from the CYP1, CYP2, and CYP3 gene families are responsible for most drug metabolism." [mesh:D003577]
+synonym: "cytochrome" EXACT []
 synonym: "cytochrome P450" EXACT []
 synonym: "cytochrome p450" EXACT []
 synonym: "Cytochrome P450" EXACT []
@@ -3465,6 +3535,16 @@ inverse_is_a: HGNC:DNM2
 inverse_is_a: HGNC:DNM3
 
 [Term]
+id: FPLX:DNMT
+name: DNMT
+xref: HGNC_GROUP:1884
+is_a: FPLX:Methyltransferases
+inverse_is_a: HGNC:DNMT1
+inverse_is_a: HGNC:DNMT3A
+inverse_is_a: HGNC:DNMT3B
+inverse_is_a: HGNC:DNMT3L
+
+[Term]
 id: FPLX:DRD
 name: DRD
 def: "Cell-surface proteins that bind dopamine with high affinity and trigger intracellular changes influencing the behavior of cells." [mesh:D011954]
@@ -3651,6 +3731,37 @@ xref: MESH:D017466
 is_a: FPLX:root
 inverse_is_a: HGNC:EDNRA
 inverse_is_a: HGNC:EDNRB
+
+[Term]
+id: FPLX:EEF
+name: EEF
+synonym: "eukaryotic elongation factor" EXACT []
+is_a: FPLX:root
+inverse_is_a: FPLX:EEF1
+inverse_is_a: HGNC:EEF2
+inverse_is_a: HGNC:EIF5A
+
+[Term]
+id: FPLX:EEF1
+name: EEF1
+is_a: FPLX:EEF
+inverse_is_a: FPLX:EEF1A
+inverse_is_a: FPLX:EEF1B
+
+[Term]
+id: FPLX:EEF1A
+name: EEF1A
+is_a: FPLX:EEF1
+has_part: HGNC:EEF1A1
+has_part: HGNC:EEF1A2
+
+[Term]
+id: FPLX:EEF1B
+name: EEF1B
+is_a: FPLX:EEF1
+has_part: HGNC:EEF1B2
+has_part: HGNC:EEF1G
+has_part: HGNC:EEF1D
 
 [Term]
 id: FPLX:EFN
@@ -4154,6 +4265,29 @@ inverse_is_a: HGNC:EXTL2
 inverse_is_a: HGNC:EXTL3
 inverse_is_a: HGNC:EXT1
 inverse_is_a: HGNC:EXT2
+
+[Term]
+id: FPLX:FABP
+name: FABP
+synonym: "fatty acid binding protein" EXACT []
+xref: HGNC_GROUP:550
+is_a: FPLX:root
+inverse_is_a: HGNC:CRABP1
+inverse_is_a: HGNC:CRABP2
+inverse_is_a: HGNC:FABP1
+inverse_is_a: HGNC:FABP12
+inverse_is_a: HGNC:FABP2
+inverse_is_a: HGNC:FABP3
+inverse_is_a: HGNC:FABP4
+inverse_is_a: HGNC:FABP5
+inverse_is_a: HGNC:FABP6
+inverse_is_a: HGNC:FABP7
+inverse_is_a: HGNC:FABP9
+inverse_is_a: HGNC:PMP2
+inverse_is_a: HGNC:RBP1
+inverse_is_a: HGNC:RBP2
+inverse_is_a: HGNC:RBP5
+inverse_is_a: HGNC:RBP7
 
 [Term]
 id: FPLX:F_actin
@@ -5415,6 +5549,7 @@ def: "A transferase that catalyzes the addition of aliphatic, aromatic, or heter
 synonym: "glutathione S-transferase" EXACT []
 synonym: "GST" EXACT []
 synonym: "GSTs" EXACT []
+synonym: "glutathione-S-transferase" EXACT []
 xref: BEL:"GST Family"
 xref: MESH:D005982
 xref: NCIT:C16641
@@ -5748,6 +5883,7 @@ id: FPLX:Hemoglobin
 name: Hemoglobin
 def: "The oxygen-carrying proteins of ERYTHROCYTES. They are found in all vertebrates and some invertebrates. The number of globin subunits in the hemoglobin quaternary structure differs between species. Structures range from monomeric to a variety of multimeric arrangements." [mesh:D006454]
 synonym: "hemoglobin" EXACT []
+synonym: "Hgb" EXACT []
 xref: BEL:"Hemoglobin Complex"
 xref: MEDSCAN:urn:agi-protfc:hemoglobin
 xref: MESH:D006454
@@ -5781,6 +5917,19 @@ inverse_is_a: HGNC:HES4
 inverse_is_a: HGNC:HES5
 inverse_is_a: HGNC:HES6
 inverse_is_a: HGNC:HES7
+
+[Term]
+id: FPLX:HEX
+name: HEX
+synonym: "hexosaminidase" EXACT []
+xref: HGNC_GROUP:1642
+xref: MESH:D006596
+is_a: FPLX:root
+inverse_is_a: HGNC:HEXA
+inverse_is_a: HGNC:HEXB
+inverse_is_a: HGNC:HEXD
+inverse_is_a: HGNC:OGA
+inverse_is_a: FPLX:Beta_HEX
 
 [Term]
 id: FPLX:HIF
@@ -6673,6 +6822,7 @@ id: FPLX:KCNJ
 name: KCNJ
 def: "Potassium channels where the flow of K+ ions into the cell is greater than the outward flow." [mesh:D024661]
 synonym: "IK1" EXACT []
+synonym: "Kir" EXACT []
 xref: HGNC_GROUP:276
 xref: MESH:D024661
 is_a: FPLX:KCN
@@ -6842,6 +6992,46 @@ inverse_is_a: HGNC:KLK7
 inverse_is_a: HGNC:KLK8
 inverse_is_a: HGNC:KLK9
 inverse_is_a: HGNC:KLKB1
+
+[Term]
+id: FPLX:KMT
+name: KMT
+xref: HGNC_GROUP:487
+is_a: FPLX:Methyltransferases
+inverse_is_a: HGNC:ASH1L
+inverse_is_a: HGNC:DOT1L
+inverse_is_a: HGNC:EHMT1
+inverse_is_a: HGNC:EHMT2
+inverse_is_a: HGNC:EZH1
+inverse_is_a: HGNC:EZH2
+inverse_is_a: HGNC:KMT2A
+inverse_is_a: HGNC:KMT2B
+inverse_is_a: HGNC:KMT2C
+inverse_is_a: HGNC:KMT2D
+inverse_is_a: HGNC:KMT2E
+inverse_is_a: HGNC:KMT5A
+inverse_is_a: HGNC:KMT5B
+inverse_is_a: HGNC:KMT5C
+inverse_is_a: HGNC:MECOM
+inverse_is_a: HGNC:NSD1
+inverse_is_a: HGNC:NSD2
+inverse_is_a: HGNC:NSD3
+inverse_is_a: HGNC:PRDM16
+inverse_is_a: HGNC:PRDM2
+inverse_is_a: HGNC:PRDM6
+inverse_is_a: HGNC:PRDM8
+inverse_is_a: HGNC:PRDM9
+inverse_is_a: HGNC:SETD1A
+inverse_is_a: HGNC:SETD1B
+inverse_is_a: HGNC:SETD2
+inverse_is_a: HGNC:SETD7
+inverse_is_a: HGNC:SETDB1
+inverse_is_a: HGNC:SETDB2
+inverse_is_a: HGNC:SMYD1
+inverse_is_a: HGNC:SMYD2
+inverse_is_a: HGNC:SMYD3
+inverse_is_a: HGNC:SUV39H1
+inverse_is_a: HGNC:SUV39H2
 
 [Term]
 id: FPLX:KSR
@@ -7060,6 +7250,30 @@ inverse_is_a: HGNC:MAFG
 inverse_is_a: HGNC:MAFK
 
 [Term]
+id: FPLX:Microtubule_associated_proteins
+name: Microtubule-associated-proteins
+xref: MESH:D008869
+is_a: FPLX:root
+inverse_is_a: FPLX:MAP1
+inverse_is_a: FPLX:MAP2
+inverse_is_a: HGNC:MAP6
+inverse_is_a: HGNC:MAP7
+inverse_is_a: HGNC:MAP7D3
+inverse_is_a: HGNC:MAP9
+inverse_is_a: HGNC:MAP10
+inverse_is_a: FPLX:MAPRE
+
+[Term]
+id: FPLX:MAP1
+name: MAP1
+synonym: "MAP1 family" EXACT []
+synonym: "MAP1-family proteins" EXACT []
+is_a: FPLX:Microtubule_associated_proteins
+inverse_is_a: HGNC:MAP1A
+inverse_is_a: HGNC:MAP1B
+inverse_is_a: HGNC:MAP1S
+
+[Term]
 id: FPLX:MAP1LC3
 name: MAP1LC3
 synonym: "LC3" EXACT []
@@ -7071,11 +7285,22 @@ inverse_is_a: HGNC:MAP1LC3B2
 inverse_is_a: HGNC:MAP1LC3C
 
 [Term]
+id: FPLX:MAP2
+name: MAP2
+synonym: "MAP2 family" EXACT []
+synonym: "MAP2-family proteins" EXACT []
+is_a: FPLX:Microtubule_associated_proteins
+inverse_is_a: HGNC:MAP2
+inverse_is_a: HGNC:MAP4
+inverse_is_a: HGNC:MAPT
+
+[Term]
 id: FPLX:MAP2K
 name: MAP2K
 def: "A serine-threonine protein kinase family whose members are components in protein kinase cascades activated by diverse stimuli. These MAPK kinases phosphorylate MITOGEN-ACTIVATED PROTEIN KINASES and are themselves phosphorylated by MAP KINASE KINASE KINASES. JNK kinases (also known as SAPK kinases) are a subfamily." [mesh:D020929]
 synonym: "MAPK kinase" EXACT []
 synonym: "mitogen-activated protein kinase kinase" EXACT []
+synonym: "MKKs" EXACT []
 xref: MESH:D020929
 xref: NCIT:C105947
 is_a: FPLX:root
@@ -7140,6 +7365,17 @@ inverse_is_a: FPLX:p38
 inverse_is_a: FPLX:JNK
 
 [Term]
+id: FPLX:MAPRE
+name: MAPRE
+synonym: "microtubule-associated protein RP/EB family" EXACT []
+synonym: "Microtubule-associated protein RP/EB family" EXACT []
+xref: HGNC_GROUP:1826
+is_a: FPLX:Microtubule_associated_proteins
+inverse_is_a: HGNC:MAPRE1
+inverse_is_a: HGNC:MAPRE2
+inverse_is_a: HGNC:MAPRE3
+
+[Term]
 id: FPLX:MCM
 name: MCM
 def: "A family of proteins that were originally identified in SACCHAROMYCES CEREVISIAE as being essential for maintaining the structure of minichromosomes00. They form into a protein complex that has helicase activity and is involved in a variety of DNA-related functions including replication elongation, RNA transcription, chromatin remodeling, and genome stability." [mesh:D064110]
@@ -7147,6 +7383,7 @@ synonym: "MCM" EXACT []
 synonym: "mini-chromosome maintenance complex" EXACT []
 synonym: "minichromosome maintenance complex" EXACT []
 synonym: "minichromosome maintenance protein complex" EXACT []
+synonym: "Mcm" EXACT []
 xref: GO:0042555
 xref: IP:IPR001208
 xref: IP:IPR031327
@@ -7279,6 +7516,20 @@ inverse_is_a: HGNC:MT1X
 inverse_is_a: HGNC:MT2A
 inverse_is_a: HGNC:MT3
 inverse_is_a: HGNC:MT4
+
+[Term]
+id: FPLX:Methyltransferases
+name: Methyltransferases
+synonym: "methyltransferase" EXACT []
+synonym: "methyltransferases" EXACT []
+synonym: "Methyltransferase" EXACT []
+synonym: "Methyltransferases" EXACT []
+xref: MESH:D008780
+is_a: FPLX:root
+inverse_is_a: FPLX:KMT
+inverse_is_a: FPLX:DNMT
+inverse_is_a: FPLX:PRMT
+inverse_is_a: FPLX:TRMT
 
 [Term]
 id: FPLX:MGAT
@@ -7534,6 +7785,18 @@ has_part: HGNC:MRPS35
 has_part: HGNC:MRPS36
 
 [Term]
+id: FPLX:MTNR
+name: MTNR
+synonym: "melatonin receptor" EXACT []
+synonym: "melatonin receptors" EXACT []
+synonym: "Melatonin receptor" EXACT []
+synonym: "Melatonin receptors" EXACT []
+xref: HGNC_GROUP:220
+is_a: FPLX:root
+inverse_is_a: HGNC:MTNR1A
+inverse_is_a: HGNC:MTNR1B
+
+[Term]
 id: FPLX:mTORC1
 name: mTORC1
 def: "An evolutionarily conserved multiprotein complex that functions as a cellular energy sensor and regulator of protein synthesis for cell growth and proliferation. It consists of TOR SERINE-THREONINE KINASES; REGULATORY-ASSOCIATED PROTEIN OF MTOR (RAPTOR); MLST8 PROTEIN; and AKT1 substrate 1 protein. The activity of the complex is regulated by SIROLIMUS; INSULIN; GROWTH FACTORS; PHOSPHATIDIC ACIDS; some amino acids or amino acid derivatives, and OXIDATIVE STRESS." [mesh:D000076222]
@@ -7721,6 +7984,7 @@ id: FPLX:Myosin_complex
 name: Myosin-complex
 def: "A diverse superfamily of proteins that function as translocating proteins. They share the common characteristics of being able to bind ACTINS and hydrolyze MgATP. Myosins generally consist of heavy chains which are involved in locomotion, and light chains which are involved in regulation. Within the structure of myosin heavy chain are three domains: the head, the neck and the tail. The head region of the heavy chain contains the actin binding domain and MgATPase domain which provides energy for locomotion. The neck region is involved in binding the light-chains. The tail region provides the anchoring point that maintains the position of the heavy chain. The superfamily of myosins is organized into structural classes based upon the type and arrangement of the subunits they contain." [mesh:D009218]
 synonym: "myosin" EXACT []
+synonym: "Myosin" EXACT []
 xref: MESH:D009218
 is_a: FPLX:root
 has_part: FPLX:Myosin_family
@@ -7908,6 +8172,8 @@ inverse_is_a: FPLX:NPYR
 id: FPLX:Neuropeptides
 name: Neuropeptides
 def: "Peptides released by NEURONS as intercellular messengers. Many neuropeptides are also hormones released by non-neuronal cells." [mesh:D009479]
+synonym: "neuropeptide" EXACT []
+synonym: "neuropeptides" EXACT []
 xref: HGNC_GROUP:1902
 xref: MESH:D009479
 is_a: FPLX:root
@@ -8903,6 +9169,7 @@ id: FPLX:p38
 name: p38
 def: "A mitogen-activated protein kinase subfamily that regulates a variety of cellular processes including CELL GROWTH PROCESSES; CELL DIFFERENTIATION; APOPTOSIS; and cellular responses to INFLAMMATION. The P38 MAP kinases are regulated by CYTOKINE RECEPTORS and can be activated in response to bacterial pathogens." [mesh:D048051]
 synonym: "MAPK p38" EXACT []
+synonym: "P38" EXACT []
 synonym: "P38 MAPK" EXACT []
 synonym: "p38 MAPK" EXACT []
 synonym: "p38 MAPKs" EXACT []
@@ -9089,6 +9356,25 @@ inverse_is_a: HGNC:PBX1
 inverse_is_a: HGNC:PBX2
 inverse_is_a: HGNC:PBX3
 inverse_is_a: HGNC:PBX4
+
+[Term]
+id: FPLX:PCSK
+name: PCSK
+synonym: "proprotein convertase" EXACT []
+synonym: "proprotein convertases" EXACT []
+synonym: "Proprotein convertase" EXACT []
+synonym: "Proprotein convertases" EXACT []
+xref: HGNC_GROUP:973
+is_a: FPLX:root
+inverse_is_a: HGNC:FURIN
+inverse_is_a: HGNC:MBTPS1
+inverse_is_a: HGNC:PCSK1
+inverse_is_a: HGNC:PCSK2
+inverse_is_a: HGNC:PCSK4
+inverse_is_a: HGNC:PCSK5
+inverse_is_a: HGNC:PCSK6
+inverse_is_a: HGNC:PCSK7
+inverse_is_a: HGNC:PCSK9
 
 [Term]
 id: FPLX:PDE
@@ -9462,6 +9748,7 @@ id: FPLX:Phosphatase
 name: Phosphatase
 def: "A group of enzymes removing the SERINE- or THREONINE-bound phosphate groups from a wide range of phosphoproteins, including a number of enzymes which have been phosphorylated under the action of a kinase. (Enzyme Nomenclature, 1992)" [mesh:D010749]
 synonym: "phosphatase" EXACT []
+synonym: "protein phosphatases" EXACT []
 xref: MESH:D010749
 xref: NCIT:C16981
 is_a: FPLX:root
@@ -9774,6 +10061,15 @@ inverse_is_a: HGNC:PLD5
 inverse_is_a: HGNC:PLD6
 
 [Term]
+id: FPLX:PLOD
+name: PLOD
+xref: HGNC_GROUP:2023
+is_a: FPLX:root
+inverse_is_a: HGNC:PLOD1
+inverse_is_a: HGNC:PLOD2
+inverse_is_a: HGNC:PLOD3
+
+[Term]
 id: FPLX:Pocket_protein
 name: Pocket-protein
 synonym: "pocket protein" EXACT []
@@ -9893,6 +10189,7 @@ def: "A eukayrotic protein serine-threonine phosphatase subtype that dephosphory
 synonym: "PP1 regulator" EXACT []
 synonym: "PP1" EXACT []
 synonym: "PPP1" EXACT []
+synonym: "PP-1" EXACT []
 xref: GO:0008599
 xref: MEDSCAN:urn:agi-complex:prophash-d39afef40daf23ad8376b53904c7092c
 xref: MEDSCAN:urn:agi-complex:protein%20phosphatase%20type%201%20complex
@@ -10119,6 +10416,7 @@ synonym: "Peroxiredoxin" EXACT []
 synonym: "peroxiredoxin" EXACT []
 synonym: "Peroxiredoxins" EXACT []
 synonym: "peroxiredoxins" EXACT []
+synonym: "Prx" EXACT []
 xref: BEL:"PRDX Family"
 xref: ECCODE:1.11.1.15
 xref: MESH:D054464
@@ -10187,6 +10485,21 @@ xref: RE:R-HSA-4551462
 is_a: FPLX:root
 inverse_is_a: HGNC:PRKG1
 inverse_is_a: HGNC:PRKG2
+
+[Term]
+id: FPLX:PRMT
+name: PRMT
+xref: HGNC_GROUP:691
+is_a: FPLX:Methyltransferases
+inverse_is_a: HGNC:CARM1
+inverse_is_a: HGNC:PRMT1
+inverse_is_a: HGNC:PRMT2
+inverse_is_a: HGNC:PRMT3
+inverse_is_a: HGNC:PRMT5
+inverse_is_a: HGNC:PRMT6
+inverse_is_a: HGNC:PRMT7
+inverse_is_a: HGNC:PRMT8
+inverse_is_a: HGNC:PRMT9
 
 [Term]
 id: FPLX:Propionyl_CoA_carboxylase
@@ -10965,6 +11278,43 @@ has_part: HGNC:SGCE
 has_part: HGNC:SGCZ
 
 [Term]
+id: FPLX:SCAR
+name: SCAR
+synonym: "scavenger receptors" EXACT []
+synonym: "Scavenger receptors" EXACT []
+synonym: "scavenger receptor" EXACT []
+synonym: "Scavenger receptor" EXACT []
+xref: HGNC_GROUP:1253
+is_a: FPLX:root
+inverse_is_a: HGNC:AGER
+inverse_is_a: HGNC:CD14
+inverse_is_a: HGNC:CD163
+inverse_is_a: HGNC:CD163L1
+inverse_is_a: HGNC:CD207
+inverse_is_a: HGNC:CD209
+inverse_is_a: HGNC:CD36
+inverse_is_a: HGNC:CD68
+inverse_is_a: HGNC:CLEC7A
+inverse_is_a: HGNC:COLEC12
+inverse_is_a: HGNC:CXCL16
+inverse_is_a: HGNC:LY75
+inverse_is_a: HGNC:MARCO
+inverse_is_a: HGNC:MEGF10
+inverse_is_a: HGNC:MRC1
+inverse_is_a: HGNC:MSR1
+inverse_is_a: HGNC:OLR1
+inverse_is_a: HGNC:SCARA3
+inverse_is_a: HGNC:SCARA5
+inverse_is_a: HGNC:SCARB1
+inverse_is_a: HGNC:SCARB2
+inverse_is_a: HGNC:SCARF1
+inverse_is_a: HGNC:SCARF2
+inverse_is_a: HGNC:SSC4D
+inverse_is_a: HGNC:SSC5D
+inverse_is_a: HGNC:STAB1
+inverse_is_a: HGNC:STAB2
+
+[Term]
 id: FPLX:SCD
 name: SCD
 synonym: "stearoyl-CoA 9-desaturase" EXACT []
@@ -11332,6 +11682,22 @@ inverse_is_a: HGNC:SOS1
 inverse_is_a: HGNC:SOS2
 
 [Term]
+id: FPLX:SP
+name: SP
+synonym: "Sp" EXACT []
+xref: HGNC_GROUP:755
+is_a: FPLX:root
+inverse_is_a: HGNC:SP1
+inverse_is_a: HGNC:SP2
+inverse_is_a: HGNC:SP3
+inverse_is_a: HGNC:SP4
+inverse_is_a: HGNC:SP5
+inverse_is_a: HGNC:SP6
+inverse_is_a: HGNC:SP7
+inverse_is_a: HGNC:SP8
+inverse_is_a: HGNC:SP9
+
+[Term]
 id: FPLX:SPHK
 name: SPHK
 synonym: "Sphingosine kinase" EXACT []
@@ -11585,6 +11951,7 @@ id: FPLX:TCR
 name: TCR
 def: "Molecules on the surface of T-lymphocytes that recognize and combine with antigens. The receptors are non-covalently associated with a complex of several polypeptides collectively called CD3 antigens (CD3 COMPLEX). Recognition of foreign antigen and the major histocompatibility complex is accomplished by a single heterodimeric antigen-receptor structure, composed of either alpha-beta (RECEPTORS, ANTIGEN, T-CELL, ALPHA-BETA) or gamma-delta (RECEPTORS, ANTIGEN, T-CELL, GAMMA-DELTA) chains." [mesh:D011948]
 synonym: "TCR" EXACT []
+synonym: "TcR" EXACT []
 xref: MESH:D011948
 xref: NCIT:C17065
 is_a: FPLX:root
@@ -11691,6 +12058,25 @@ is_a: FPLX:root
 inverse_is_a: HGNC:TGFBR1
 inverse_is_a: HGNC:TGFBR2
 inverse_is_a: HGNC:TGFBR3
+
+[Term]
+id: FPLX:TGM
+name: TGM
+synonym: "transglutaminase" EXACT []
+synonym: "transglutaminases" EXACT []
+synonym: "Transglutaminase" EXACT []
+synonym: "Transglutaminases" EXACT []
+xref: HGNC_GROUP:773
+is_a: FPLX:root
+inverse_is_a: HGNC:EPB42
+inverse_is_a: HGNC:F13A1
+inverse_is_a: HGNC:TGM1
+inverse_is_a: HGNC:TGM2
+inverse_is_a: HGNC:TGM3
+inverse_is_a: HGNC:TGM4
+inverse_is_a: HGNC:TGM5
+inverse_is_a: HGNC:TGM6
+inverse_is_a: HGNC:TGM7
 
 [Term]
 id: FPLX:THBS
@@ -11923,6 +12309,31 @@ inverse_is_a: HGNC:TRAF4
 inverse_is_a: HGNC:TRAF5
 inverse_is_a: HGNC:TRAF6
 inverse_is_a: HGNC:TRAF7
+
+[Term]
+id: FPLX:TRMT
+name: TRMT
+xref: HGNC_GROUP:1580
+xref: MESH:D012359
+is_a: FPLX:Methyltransferases
+inverse_is_a: HGNC:ALKBH8
+inverse_is_a: HGNC:TRMT1
+inverse_is_a: HGNC:TRMT10A
+inverse_is_a: HGNC:TRMT10B
+inverse_is_a: HGNC:TRMT10C
+inverse_is_a: HGNC:TRMT11
+inverse_is_a: HGNC:TRMT112
+inverse_is_a: HGNC:TRMT12
+inverse_is_a: HGNC:TRMT13
+inverse_is_a: HGNC:TRMT1L
+inverse_is_a: HGNC:TRMT2A
+inverse_is_a: HGNC:TRMT2B
+inverse_is_a: HGNC:TRMT44
+inverse_is_a: HGNC:TRMT5
+inverse_is_a: HGNC:TRMT6
+inverse_is_a: HGNC:TRMT61A
+inverse_is_a: HGNC:TRMT61B
+inverse_is_a: HGNC:TRMT9B
 
 [Term]
 id: FPLX:Troponin
