@@ -224,6 +224,9 @@ Ach	CHEBI:15355	chebi	Simple_chemical
 Ack1	Q07912	uniprot	Gene_or_gene_product
 Acsl	ACSL	fplx	Family
 Actin	Actin	fplx	Family
+Actin-related protein	Actin_related_proteins	fplx	Family
+Actin-related proteins	Actin_related_proteins	fplx	Family
+Actin-related-proteins	Actin_related_proteins	fplx	Family
 Activin	Activin	fplx	Family
 Activin A	Activin_A	fplx	Family
 Activin A protein	Activin_A	fplx	Family
@@ -238,6 +241,7 @@ Adaptor-protein-II	Adaptor_protein_II	fplx	Family
 Adaptor-protein-III	Adaptor_protein_III	fplx	Family
 Adaptor-protein-IV	Adaptor_protein_IV	fplx	Family
 Adaptor-protein-V	Adaptor_protein_V	fplx	Family
+Adenosine-deaminase-family	Adenosine_deaminase_family	fplx	Family
 Akt	AKT	fplx	Family
 Akt1	P31749	uniprot	Gene_or_gene_product
 Akt2	P31751	uniprot	Gene_or_gene_product
@@ -258,6 +262,7 @@ ApoA	APOA	fplx	Family
 Apolipoprotein	Apolipoprotein	fplx	Family
 Apoptosis	GO:0006915	go	BioProcess
 Arf	Q8N726	uniprot	Gene_or_gene_product
+Arp	Actin_related_proteins	fplx	Family
 Arp2-3-protein	Arp2_3_protein	fplx	Family
 Arp2/3	Arp2_3_protein	fplx	Family
 Arsenic trioxide	CHEBI:30621	chebi	Simple_chemical
@@ -327,7 +332,9 @@ Beta tubulin	TUBB	fplx	Family
 Beta-1,3-glucuronyltransferase	B3GAT	fplx	Family
 Beta-1,3-glucuronyltransferases	B3GAT	fplx	Family
 Beta-3-4-GTF	Beta_3_4_GTF	fplx	Family
+Beta-HEX	Beta_HEX	fplx	Family
 Beta-Tubulin	TUBB	fplx	Family
+Beta-hexosaminidase	Beta_HEX	fplx	Family
 Beta-tubulin	TUBB	fplx	Family
 Bid	P55957	uniprot	Gene_or_gene_product
 Bim	O43521	uniprot	Gene_or_gene_product
@@ -630,6 +637,7 @@ DNA-Pkcs	P78527	uniprot	Gene_or_gene_product
 DNA-polymerase-alpha	DNA_polymerase_alpha	fplx	Family
 DNA-polymerase-delta	DNA_polymerase_delta	fplx	Family
 DNM	DNM	fplx	Family
+DNMT	DNMT	fplx	Family
 DP complex	TFDP	fplx	Family
 DR4	O00220	uniprot	Gene_or_gene_product
 DR5	O14763	uniprot	Gene_or_gene_product
@@ -670,6 +678,10 @@ EBP1	Q9UQ80	uniprot	Gene_or_gene_product
 ECM	GO:0031012	go	BioProcess
 EDN	EDN	fplx	Family
 EDNR	EDNR	fplx	Family
+EEF	EEF	fplx	Family
+EEF1	EEF1	fplx	Family
+EEF1A	EEF1A	fplx	Family
+EEF1B	EEF1B	fplx	Family
 EFN	EFN	fplx	Family
 EGCG	CHEBI:4806	chebi	Simple_chemical
 EGF	P01133	uniprot	Gene_or_gene_product
@@ -758,6 +770,7 @@ Everolimus	CHEBI:68478	chebi	Simple_chemical
 Exostosin glycosyltransferase family	EXT	fplx	Family
 Extracellular Signal Regulated Kinase	ERK	fplx	Family
 F-actin	F_actin	fplx	Family
+FABP	FABP	fplx	Family
 FADD	Q13158	uniprot	Gene_or_gene_product
 FAK	Q05397	uniprot	Gene_or_gene_product
 FAM83B	Q5T0W9	uniprot	Gene_or_gene_product
@@ -1070,6 +1083,7 @@ HER2	P04626	uniprot	Gene_or_gene_product
 HER2 receptor	P04626	uniprot	Gene_or_gene_product
 HER3	P21860	uniprot	Gene_or_gene_product
 HES	HES	fplx	Family
+HEX	HEX	fplx	Family
 HG	CHEBI:17234	chebi	Simple_chemical
 HGF	P14210	uniprot	Gene_or_gene_product
 HIF	HIF	fplx	Family
@@ -1123,6 +1137,7 @@ Hep	CHEBI:28304	chebi	Simple_chemical
 Hes	HES	fplx	Family
 Hes gene family	HES	fplx	Family
 Hes genes	HES	fplx	Family
+Hgb	Hemoglobin	fplx	Family
 Hh	Hedgehog	fplx	Family
 Hic-5	O43294	uniprot	Gene_or_gene_product
 Hifalpha	HIF_alpha	fplx	Family
@@ -1268,6 +1283,7 @@ KCNT	KCNT	fplx	Family
 KLF5	Q13887	uniprot	Gene_or_gene_product
 KLK	KLK	fplx	Family
 KLKs	KLK	fplx	Family
+KMT	KMT	fplx	Family
 KRAS	P01116	uniprot	Gene_or_gene_product
 KSR	KSR	fplx	Family
 Kainate receptors	Kainate_family	fplx	Family
@@ -1279,6 +1295,7 @@ Kindlin	FERMT	fplx	Family
 Kindlins	FERMT	fplx	Family
 Kinesin	Kinesin	fplx	Family
 Kinetochore	Kinetochore	fplx	Family
+Kir	KCNJ	fplx	Family
 Klf5	Q13887	uniprot	Gene_or_gene_product
 Kras	P01116	uniprot	Gene_or_gene_product
 LA	CHEBI:30314	chebi	Simple_chemical
@@ -1319,7 +1336,12 @@ MAC	MAC	fplx	Family
 MAC-1	MAC_1	fplx	Family
 MAP kinase	MAPK	fplx	Family
 MAP kinases	MAPK	fplx	Family
+MAP1	MAP1	fplx	Family
+MAP1 family	MAP1	fplx	Family
+MAP1-family proteins	MAP1	fplx	Family
 MAP1LC3	MAP1LC3	fplx	Family
+MAP2 family	MAP2	fplx	Family
+MAP2-family proteins	MAP2	fplx	Family
 MAP2K	MAP2K	fplx	Family
 MAP2K1	Q02750	uniprot	Gene_or_gene_product
 MAP2K2	P36507	uniprot	Gene_or_gene_product
@@ -1334,6 +1356,7 @@ MAPK3	P27361	uniprot	Gene_or_gene_product
 MAPKK kinases	MAP3K	fplx	Family
 MAPKKK	MAP3K	fplx	Family
 MAPKs	MAPK	fplx	Family
+MAPRE	MAPRE	fplx	Family
 MAZ	P56270	uniprot	Gene_or_gene_product
 MCM	MCM	fplx	Family
 MCP-1	P0CW71	uniprot	Gene_or_gene_product
@@ -1360,6 +1383,7 @@ MIRLET7A	MIRLET7A	fplx	Family
 MIRLET7F	MIRLET7F	fplx	Family
 MITF	O75030	uniprot	Gene_or_gene_product
 MKK4	P45985	uniprot	Gene_or_gene_product
+MKKs	MAP2K	fplx	Family
 MKNK	MKNK	fplx	Family
 MKP-1	P28562	uniprot	Gene_or_gene_product
 MKP3	Q16828	uniprot	Gene_or_gene_product
@@ -1382,6 +1406,7 @@ MRPS	MRPS	fplx	Family
 MST1	Q13043	uniprot	Gene_or_gene_product
 MST2	Q13188	uniprot	Gene_or_gene_product
 MT	Metallothionein	fplx	Family
+MTNR	MTNR	fplx	Family
 MTX	Q13505	uniprot	Gene_or_gene_product
 MUC1	P15941	uniprot	Gene_or_gene_product
 MYC	P01106	uniprot	Gene_or_gene_product
@@ -1407,13 +1432,22 @@ Macrophage-inflammatory-proteins	Macrophage_inflammatory_proteins	fplx	Family
 Mad2	Q13257	uniprot	Gene_or_gene_product
 Maf subfamily	MAF	fplx	Family
 Mcl-1	Q07820	uniprot	Gene_or_gene_product
+Mcm	MCM	fplx	Family
 Mdm2	Q00987	uniprot	Gene_or_gene_product
 Mdmx	O15151	uniprot	Gene_or_gene_product
 Mechanosensitive-ion-channels	Mechanosensitive_ion_channels	fplx	Family
+Melatonin receptor	MTNR	fplx	Family
+Melatonin receptors	MTNR	fplx	Family
 Met	P08581	uniprot	Gene_or_gene_product
 Metallothionein	Metallothionein	fplx	Family
 Metformin	CHEBI:6801	chebi	Simple_chemical
+Methyltransferase	Methyltransferases	fplx	Family
+Methyltransferases	Methyltransferases	fplx	Family
 Mhc	MYH	fplx	Family
+Microtubule-associated protein	MAP	fplx	Family
+Microtubule-associated protein RP/EB family	MAPRE	fplx	Family
+Microtubule-associated proteins	MAP	fplx	Family
+Microtubule-associated-proteins	Microtubule_associated_proteins	fplx	Family
 Mitochondrial Ribosome	Mitochondrial_Ribosome	fplx	Family
 Mitochondrial Ribosomes	Mitochondrial_Ribosome	fplx	Family
 Mitochondrial ribosome	Mitochondrial_Ribosome	fplx	Family
@@ -1429,6 +1463,7 @@ Mu-A	375150	pubchem	Simple_chemical
 Myc	P01106	uniprot	Gene_or_gene_product
 Myoblast	D032446	mesh	BioProcess
 Myoblasts	D032446	mesh	BioProcess
+Myosin	Myosin_complex	fplx	Family
 Myosin heavy chain	MYH	fplx	Family
 Myosin heavy chains	MYH	fplx	Family
 Myosin-complex	Myosin_complex	fplx	Family
@@ -1624,6 +1659,7 @@ P2X purinoreceptors	P2RX	fplx	Family
 P2X receptor	P2RX	fplx	Family
 P2X receptors	P2RX	fplx	Family
 P2Y receptor	P2RY	fplx	Family
+P38	p38	fplx	Family
 P38 MAPK	p38	fplx	Family
 P450	CYP	fplx	Family
 P450s	CYP	fplx	Family
@@ -1649,6 +1685,7 @@ PATCHED	Patched	fplx	Family
 PBX	PBX	fplx	Family
 PBXs	PBX	fplx	Family
 PCNA	P12004	uniprot	Gene_or_gene_product
+PCSK	PCSK	fplx	Family
 PCTAIRE	Q00536	uniprot	Gene_or_gene_product
 PD	D010300	mesh	BioProcess
 PD-1	Q15116	uniprot	Gene_or_gene_product
@@ -1781,9 +1818,11 @@ PLCgamma1	P19174	uniprot	Gene_or_gene_product
 PLCγ1	P19174	uniprot	Gene_or_gene_product
 PLD	PLD	fplx	Family
 PLK1	P53350	uniprot	Gene_or_gene_product
+PLOD	PLOD	fplx	Family
 PLX	CHEBI:63637	chebi	Simple_chemical
 PLX4032	CHEBI:63637	chebi	Simple_chemical
 PML	P29590	uniprot	Gene_or_gene_product
+PP-1	PPP1	fplx	Family
 PP1	PPP1	fplx	Family
 PP1 regulator	PPP1	fplx	Family
 PP1C	PPP1C	fplx	Family
@@ -1829,6 +1868,7 @@ PRKAG	AMPK_gamma	fplx	Family
 PRKAR	PRKAR	fplx	Family
 PRKG	PRKG	fplx	Family
 PRL-3	O75365	uniprot	Gene_or_gene_product
+PRMT	PRMT	fplx	Family
 PSK2	Q08217	uniprot	Gene_or_gene_product
 PTC	P18502	uniprot	Gene_or_gene_product
 PTEN	P60484	uniprot	Gene_or_gene_product
@@ -1923,6 +1963,8 @@ Profilins	PFN	fplx	Family
 Proliferation	GO:0008283	go	BioProcess
 Propionyl-CoA carboxylase	Propionyl_CoA_carboxylase	fplx	Family
 Propionyl-CoA-carboxylase	Propionyl_CoA_carboxylase	fplx	Family
+Proprotein convertase	PCSK	fplx	Family
+Proprotein convertases	PCSK	fplx	Family
 Protease	Protease	fplx	Family
 Proteases	Protease	fplx	Family
 Proteasome	Proteasome	fplx	Family
@@ -1933,6 +1975,7 @@ Protein kinase A regulatory subunits	PRKAR	fplx	Family
 Proteinase	Protease	fplx	Family
 Proteinases	Protease	fplx	Family
 Proteinuria	D011507	mesh	BioProcess
+Prx	PRDX	fplx	Family
 Psk1	P31374	uniprot	Gene_or_gene_product
 Psk2	Q08217	uniprot	Gene_or_gene_product
 Ptc	P18502	uniprot	Gene_or_gene_product
@@ -2078,6 +2121,7 @@ SAHA	CHEBI:45716	chebi	Simple_chemical
 SAPK	JNK	fplx	Family
 SAT	D050151	mesh	BioProcess
 SB203580	CHEBI:90705	chebi	Simple_chemical
+SCAR	SCAR	fplx	Family
 SCF	P21583	uniprot	Gene_or_gene_product
 SCN	SCN	fplx	Family
 SCNN	SCNN	fplx	Family
@@ -2122,6 +2166,7 @@ SOD	SOD	fplx	Family
 SOS	SOS	fplx	Family
 SOS1	Q07889	uniprot	Gene_or_gene_product
 SOX2	P48431	uniprot	Gene_or_gene_product
+SP	SP	fplx	Family
 SP600125	CHEBI:90695	chebi	Simple_chemical
 SPC	CHEBI:17689	chebi	Simple_chemical
 SPHK	SPHK	fplx	Family
@@ -2153,6 +2198,8 @@ SYNJ2	O15056	uniprot	Gene_or_gene_product
 Sarcoglycan	Sarcoglycan_complex	fplx	Family
 Sarcoglycan-complex	Sarcoglycan_complex	fplx	Family
 Sarcoglycans	Sarcoglycan_complex	fplx	Family
+Scavenger receptor	SCAR	fplx	Family
+Scavenger receptors	SCAR	fplx	Family
 Se	CHEBI:27568	chebi	Simple_chemical
 Shc	SHC	fplx	Family
 Shc family	SHC	fplx	Family
@@ -2182,6 +2229,7 @@ Soluble guanylyl/guanylate cyclase	SGC	fplx	Family
 Sorafenib	CHEBI:50924	chebi	Simple_chemical
 Sos-1	Q07889	uniprot	Gene_or_gene_product
 Sos1	Q07889	uniprot	Gene_or_gene_product
+Sp	SP	fplx	Family
 Sp1	P08047	uniprot	Gene_or_gene_product
 SphK	SPHK	fplx	Family
 Sphingosine 1-phosphate receptor	S1PR	fplx	Family
@@ -2260,6 +2308,7 @@ TGFβ	TGFB	fplx	Family
 TGFβ receptor	TGFBR	fplx	Family
 TGFβ receptors	TGFBR	fplx	Family
 TGFβ1	P01137	uniprot	Gene_or_gene_product
+TGM	TGM	fplx	Family
 THBS	THBS	fplx	Family
 THR	THR	fplx	Family
 THZ531	CHEBI:143122	chebi	Simple_chemical
@@ -2310,6 +2359,7 @@ TRAFs	TRAF	fplx	Family
 TRAIL	P50591	uniprot	Gene_or_gene_product
 TRAP	P16893	uniprot	Gene_or_gene_product
 TRIM	Q6PIZ9	uniprot	Gene_or_gene_product
+TRMT	TRMT	fplx	Family
 TRP	TRP	fplx	Family
 TRiC	CCT_complex	fplx	Family
 TSA	CHEBI:46024	chebi	Simple_chemical
@@ -2323,6 +2373,7 @@ TXNRD	TXNRD	fplx	Family
 Tat	P04608	uniprot	Gene_or_gene_product
 Tax	P03409	uniprot	Gene_or_gene_product
 Tc1	Q9NR00	uniprot	Gene_or_gene_product
+TcR	TCR	fplx	Family
 Tcf	TCF_LEF	fplx	Family
 Tcf/Lef	TCF_LEF	fplx	Family
 Temozolomide	CHEBI:72564	chebi	Simple_chemical
@@ -2340,6 +2391,8 @@ Tpl2	P41279	uniprot	Gene_or_gene_product
 TraD	P09130	uniprot	Gene_or_gene_product
 Traf	TRAF	fplx	Family
 Transcription factor AP-2	TFAP2	fplx	Family
+Transglutaminase	TGM	fplx	Family
+Transglutaminases	TGM	fplx	Family
 Trk receptor	NTRK	fplx	Family
 Trk receptors	NTRK	fplx	Family
 TrkA	P04629	uniprot	Gene_or_gene_product
@@ -2410,6 +2463,8 @@ acetyl-coenzyme A synthase	Acetyl_CoA_synthetase	fplx	Family
 acetylcholine receptor	CHRM	fplx	Family
 actin	Actin	fplx	Family
 actin filament	F_actin	fplx	Family
+actin-related protein	Actin_related_proteins	fplx	Family
+actin-related proteins	Actin_related_proteins	fplx	Family
 actinin	ACTN	fplx	Family
 actins	Actin	fplx	Family
 activin	Activin	fplx	Family
@@ -2425,6 +2480,7 @@ acyl-CoA dehydrogenase	ACAD	fplx	Family
 acyl-CoA oxidases	ACOX	fplx	Family
 adaptor protein complex 2	Adaptor_protein_II	fplx	Family
 adaptor protein complex 3	Adaptor_protein_III	fplx	Family
+adenosine deaminase	Adenosine_deaminase_family	fplx	Family
 adenylate cyclase	ADCY	fplx	Family
 adenylyl cyclase	ADCY	fplx	Family
 adhesion	GO:0007155	go	BioProcess
@@ -2622,6 +2678,7 @@ cdk2	P24941	uniprot	Gene_or_gene_product
 celecoxib	CHEBI:41423	chebi	Simple_chemical
 cell adhesion	GO:0007155	go	BioProcess
 cell cycle	GO:0007049	go	BioProcess
+cell cycle regulatory protein	CDK	fplx	Family
 cell death	GO:0008219	go	BioProcess
 cell growth	GO:0016049	go	BioProcess
 cell migration	GO:0016477	go	BioProcess
@@ -2715,6 +2772,7 @@ cyclophilins	Cyclophilin	fplx	Family
 cypermethrin	CHEBI:4042	chebi	Simple_chemical
 cysteine rich secretory proteins	CRISP	fplx	Family
 cysteine-rich secretory proteins	CRISP	fplx	Family
+cytochrome	CYP	fplx	Family
 cytochrome C	P99999	uniprot	Gene_or_gene_product
 cytochrome P-450	CYP	fplx	Family
 cytochrome P-450 enzyme	CYP	fplx	Family
@@ -2816,6 +2874,7 @@ estrogen receptor	P03372	uniprot	Gene_or_gene_product
 ethanol	CHEBI:16236	chebi	Simple_chemical
 ethanolamine kinase	CHK	fplx	Family
 etoposide	CHEBI:4911	chebi	Simple_chemical
+eukaryotic elongation factor	EEF	fplx	Family
 eukaryotic initiation factor 4E	P06730	uniprot	Gene_or_gene_product
 eukaryotic initiation factor-4A	EIF4A	fplx	Family
 everolimus	CHEBI:68478	chebi	Simple_chemical
@@ -2827,6 +2886,7 @@ ezrin	P15311	uniprot	Gene_or_gene_product
 ezrin-radixin-moesin	ERM	fplx	Family
 ezrin/radixin/moesin	ERM	fplx	Family
 farnesyltransferase	FNT	fplx	Family
+fatty acid binding protein	FABP	fplx	Family
 fermitin	FERMT	fplx	Family
 fermitins	FERMT	fplx	Family
 fibrin	Fibrin	fplx	Family
@@ -2865,6 +2925,7 @@ glutamic-oxaloacetic transaminase	GOT	fplx	Family
 glutathione	CHEBI:16856	chebi	Simple_chemical
 glutathione S-transferase	GST	fplx	Family
 glutathione peroxidase	GPX	fplx	Family
+glutathione-S-transferase	GST	fplx	Family
 glycogen	CHEBI:28087	chebi	Simple_chemical
 glycogen phosphorylase	PYG	fplx	Family
 glycogen phosphorylases	PYG	fplx	Family
@@ -2904,6 +2965,7 @@ heme oxygenase	HMOX	fplx	Family
 hemoglobin	Hemoglobin	fplx	Family
 heparin	CHEBI:28304	chebi	Simple_chemical
 her4	Q90466	uniprot	Gene_or_gene_product
+hexosaminidase	HEX	fplx	Family
 histamine receptor	HRH	fplx	Family
 histamine receptors	HRH	fplx	Family
 histone	Histone	fplx	Family
@@ -3014,6 +3076,8 @@ mechanosensitive ion channel	Mechanosensitive_ion_channels	fplx	Family
 mechanosensitive ion channels	Mechanosensitive_ion_channels	fplx	Family
 melanin	CHEBI:89634	chebi	Simple_chemical
 melatonin	CHEBI:16796	chebi	Simple_chemical
+melatonin receptor	MTNR	fplx	Family
+melatonin receptors	MTNR	fplx	Family
 membrane attack	MAC	fplx	Family
 membrane attack complex	MAC	fplx	Family
 metabolism	GO:0008152	go	BioProcess
@@ -3022,12 +3086,17 @@ metabotropic glutamate receptor	GRM	fplx	Family
 metallothionein	Metallothionein	fplx	Family
 metastasis	D009362	mesh	BioProcess
 metformin	CHEBI:6801	chebi	Simple_chemical
+methyltransferase	Methyltransferases	fplx	Family
+methyltransferases	Methyltransferases	fplx	Family
 miR-101	MIR101-1	hgnc	Gene_or_gene_product
 miR-145	MIR145	hgnc	Gene_or_gene_product
 miR-155	MIR155	hgnc	Gene_or_gene_product
 miR-21	MIR21	hgnc	Gene_or_gene_product
 miR-7	MIR7-1	hgnc	Gene_or_gene_product
 microtubule motor cytoplasmic dynein	Cytoplasmic_dynein	fplx	Family
+microtubule-associated protein	MAP	fplx	Family
+microtubule-associated protein RP/EB family	MAPRE	fplx	Family
+microtubule-associated proteins	MAP	fplx	Family
 mini-chromosome maintenance complex	MCM	fplx	Family
 minichromosome maintenance complex	MCM	fplx	Family
 minichromosome maintenance protein complex	MCM	fplx	Family
@@ -3068,12 +3137,14 @@ neuregulin	NRG	fplx	Family
 neuregulin family	NRG	fplx	Family
 neuregulins	NRG	fplx	Family
 neuronal migration	GO:0001764	go	BioProcess
+neuropeptide	Neuropeptides	fplx	Family
 neuropeptide FF receptor	NPFFR	fplx	Family
 neuropeptide FF receptors	NPFFR	fplx	Family
 neuropeptide Y receptor	NPYR	fplx	Family
 neuropeptide Y receptors	NPYR	fplx	Family
 neuropeptide receptor	Neuropeptide_receptor	fplx	Family
 neuropeptide receptors	Neuropeptide_receptor	fplx	Family
+neuropeptides	Neuropeptides	fplx	Family
 neuropeptides B and W receptor	NPBWR	fplx	Family
 neuropeptides B and W receptors	NPBWR	fplx	Family
 neuroregulin	NRG	fplx	Family
@@ -3239,6 +3310,8 @@ profilins	PFN	fplx	Family
 progesterone	CHEBI:17026	chebi	Simple_chemical
 proliferation	GO:0008283	go	BioProcess
 propionyl-CoA carboxylase	Propionyl_CoA_carboxylase	fplx	Family
+proprotein convertase	PCSK	fplx	Family
+proprotein convertases	PCSK	fplx	Family
 prostaglandin E receptor	PTGER	fplx	Family
 protease	Protease	fplx	Family
 proteases	Protease	fplx	Family
@@ -3254,6 +3327,7 @@ protein kinase C	PKC	fplx	Family
 protein kinase G	PRKG	fplx	Family
 protein phosphatase 2	PPP2	fplx	Family
 protein phosphatase 2B	PPP3	fplx	Family
+protein phosphatases	Phosphatase	fplx	Family
 proteinase	Protease	fplx	Family
 proteinases	Protease	fplx	Family
 proteinuria	D011507	mesh	BioProcess
@@ -3303,6 +3377,8 @@ salt inducible kinase	SIK	fplx	Family
 sarcoglycan	Sarcoglycan_complex	fplx	Family
 sarcoglycans	Sarcoglycan_complex	fplx	Family
 sarcoplasmic/endoplasmic reticulum calcium ATPase	SERCA	fplx	Family
+scavenger receptor	SCAR	fplx	Family
+scavenger receptors	SCAR	fplx	Family
 senescence	GO:0090398	go	BioProcess
 serine/threonine protein kinase CK1	CSNK1	fplx	Family
 shikonin	CHEBI:81068	chebi	Simple_chemical
@@ -3376,6 +3452,8 @@ transforming growth factor beta	TGFB	fplx	Family
 transforming growth factor β	TGFB	fplx	Family
 transforming growth factor-beta	TGFB	fplx	Family
 transforming growth factor-β	TGFB	fplx	Family
+transglutaminase	TGM	fplx	Family
+transglutaminases	TGM	fplx	Family
 translation	GO:0006412	go	BioProcess
 transport	GO:0006810	go	BioProcess
 trastuzumab	CHEMBL1201585	chembl	Simple_chemical
@@ -3459,6 +3537,7 @@ xylosyltransferases	GCNT	fplx	Family
 β-adrenergic receptor	ADRB	fplx	Family
 β-adrenoreceptor	ADRB	fplx	Family
 β-catenin	P35222	uniprot	Gene_or_gene_product
+β-hexosaminidase	Beta_HEX	fplx	Family
 βAR	ADRB	fplx	Family
 βARK	ADRBK	fplx	Family
 γ secretase	Gamma_secretase	fplx	Family
